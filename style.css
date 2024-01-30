@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+} 
+
+.navbar {
+    background-color: #FDFDFE !important;
+    border-radius: 15px;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    color: #023047;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: background-color 0.6s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white !important;
+    background-color: #023047; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Make images cover the entire container */
+  }
+  
+  /* Optionally, you can set a maximum height for the images */
+  .carousel-inner img {
+    max-height: 400px; /* Adjust the value as needed */
+  }
+  
+  /* Optional: Center carousel items vertically */
+  .carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+ #ubicacion{
+    background-color: #f8fbff;
+
+  }
+
+   
+ #precios{
+    background-color: #f8fbff;
+
+  }
+
+  html {
+    scroll-behavior: smooth;
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Change the color as needed */
+}
+
+  
+.animated-element {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+/* Add a class that will be applied when the element is in the viewport */
+.in-viewport {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.en-uso{
+color:red !important;
+
+} 
+.libre{
+    color: green !important;
+}
+
+/* Agrega estos estilos personalizados a tu archivo style.css */
+table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+th,
+td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-shadow {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}

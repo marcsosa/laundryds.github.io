@@ -1,0 +1,38 @@
+{
+    "lavanderia": {
+      "lavadoras": [
+        {
+          "id": 1,
+          "en_uso": true,
+          "tiempo_ciclo": 35
+        },
+        {
+          "id": 2,
+          "en_uso": false,
+          "tiempo_ciclo": 0
+        },
+        {
+          "id": 3,
+          "en_uso": true,
+          "tiempo_ciclo": 22
+        }
+      ],
+      "secadoras": [
+        {
+          "id": 1,
+          "en_uso": true,
+          "tiempo_ciclo": 35
+        },
+        {
+          "id": 2,
+          "en_uso": false,
+          "tiempo_ciclo": 0
+        },
+        {
+          "id": 3,
+          "en_uso": true,
+          "tiempo_ciclo": 22
+        }
+      ]
+    }
+  }
